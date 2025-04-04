@@ -1,0 +1,100 @@
+.navbar {
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .catLogo{
+    width: 60px;
+    border-radius: 100%;
+  }
+
+  a{
+    margin-right: 10px;
+    font-weight: bolder;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+  }
+
+ .nav-link {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bolder;
+    transition: all 0.3s;
+    margin-left: 10px;
+  }
+
+  .container {
+    margin-top: 50px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    font-size: 1.2rem;
+    color: black;
+    max-width: auto;
+    margin: 0 auto 40px;
+    text-align: left;
+  }
+
+  .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .card {
+    width: 18rem;
+    background: rgba(255, 255, 255, 0.8);
+    border: black solid 1px;
+    border-radius: 5px;
+  }
+
+  .card img {
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+  }
+
+  .card-body {
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+
